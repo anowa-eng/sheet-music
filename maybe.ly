@@ -9,7 +9,8 @@ piano = \new PianoStaff <<
     \key e \major
     \tempo 4=80
 
-    <e' a' cis''>8.(<b' e''>16~<b' e''>8)\sustain<b' e'' a''>16
+    <e' a' cis''>8.(<b' e''>16~<b' e''>8)
+    \sustainOn<b' e'' a''>16
   }
   \new Staff = lower {
     \clef bass
